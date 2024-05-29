@@ -1,0 +1,80 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.outer{
+    height:49rem;
+    width:30rem;
+    background-color: rgb(78, 78, 78);
+border-radius: 5%;
+margin: auto;
+}
+.outer {
+    background-color: #493b3b;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+textarea{
+    height:10rem;
+    width:25rem;
+    background-color:dimgrey ;
+    margin-left: 2.3rem;
+    border-radius:5% ;
+    font-size: 2rem;
+}
+.line1{
+    position: absolute;
+    height:5rem;
+    width: auto;
+    border-radius: 100%;
+  text-align: center;
+  margin-left: 234px;
+    margin-top: 3.8rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.line1 button {
+    border-radius: 100%;
+    text-align: center;
+    
+}
+.number {
+margin-top: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.line2{
+    top: 0%;
+
+    margin-right: 0px;
+}
+.line2 button {
+    margin-top: -20px;
+    margin-left: 12px;
+    border-radius: 100%;
+    text-align: center;
+}
+button {
+    height: 50px;
+    width: 84px;
+    margin:15px;
+    padding: auto;
+    font-size:25px;
+    background-color:rgb(102, 100, 100) ;
+color:rgb(247, 245, 245);
+}
